@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-mv themeAlternate.conf temp.conf
-mv theme.conf themeAlternate.conf
-mv temp.conf theme.conf
+mv ~/.config/kitty/themeAlternate.conf ~/.config/kitty/temp.conf
+mv ~/.config/kitty/theme.conf ~/.config/kitty/themeAlternate.conf
+mv ~/.config/kitty/temp.conf ~/.config/kitty/theme.conf
